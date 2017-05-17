@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">娱乐天地</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_discover">DiscoverActivity</string>
+    <string name="title_activity_sort">SortActivity</string>
+    <string name="title_activity_item_content">ItemContentActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_mainpage">MainpageActivity</string>
+    <string name="title_activity_add_article">AddArticleActivity</string>
+    <string name="title_activity_article">ArticleActivity</string>
+    <string name="title_activity_ground">GroundActivity</string>
+    <string name="title_activity_index">IndexActivity</string>
+    <string name="title_activity_topic">TopicActivity</string>
+    <string name="title_activity_article_collection">ArticleCollectionActivity</string>
+    <string name="title_activity_change_check">ChangeCheckActivity</string>
+    <string name="title_activity_change_user_info">ChangeUserInfoActivity</string>
+    <string name="title_activity_collect">CollectActivity</string>
+    <string name="title_activity_comment">CommentActivity</string>
+    <string name="title_activity_person_info">PersonInfoActivity</string>
+    <string name="title_activity_radio">RadioActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_searchbylabel">SearchbylabelActivity</string>
+    <string name="title_activity_search_result">SearchResultActivity</string>
+    <string name="title_activity_chat_friends">ChatFriendsActivity</string>
+    <string name="title_activity_chat_record">ChatRecordActivity</string>
+    <string name="title_activity_my_article_collection">MyArticleCollection</string>
+
+</resources>

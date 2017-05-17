@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ArticleActivity" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/photoIndex"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout3"
+            android:layout_width="204dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/nameIndex"
+                    android:layout_width="132dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/btnSearch"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/back"
+                    android:onClick="ReturnToG"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/publishtime"
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnComm"
+            android:layout_width="33dp"
+            android:layout_height="18dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/comment" />
+
+        <Button
+            android:id="@+id/btnLike"
+            android:layout_width="33dp"
+            android:layout_height="18dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/like" />
+
+        <Button
+            android:id="@+id/btnDisLike"
+            android:layout_width="41dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/dislike" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/commLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <EditText
+            android:id="@+id/edtComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.55"
+            android:ems="10"
+            android:hint="请输入评论的文字" />
+
+        <Button
+            android:id="@+id/btnComment"
+            style="@style/AppBaseTheme"
+            android:layout_width="33dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/postcmt"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/cmtList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp" >
+
+    </ListView>
+
+</LinearLayout>
